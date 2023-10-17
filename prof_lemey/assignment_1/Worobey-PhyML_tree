@@ -1,0 +1,261 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=159;
+	taxlabels
+	'1959.M.CD.59.ZR59'[&!color=#000000]
+	'1960.DRC60A'[&!color=#ff0000]
+	'1960.DRC60N'[&!color=#ff0000]
+	'1983.B.GB.83.CAM1'
+	'1983.B.US.83.5018'
+	'1983.B.US.83.5157'
+	'1983.B.US.83.RF'
+	'1983.U.CD.83.83CD003'
+	'1984.B.US.84.5019'
+	'1984.D.CD.84.84ZR085'
+	'1985.D.CD.85.Z2Z6'
+	'1986.A1.KE.86.ML170'
+	'1986.B.AU.86.MBC200'
+	'1986.B.DE.86.D31'
+	'1986.B.DE.86.HAN'
+	'1986.B.GB.86.GB8'
+	'1986.B.NL.86.3202A21'
+	'1986.B.US.86.AD87'
+	'1987.B.AU.87.MBC925'
+	'1987.B.US.87.5113'
+	'1987.B.US.87.BC'
+	'1988.B.GA.88.OYI'
+	'1988.B.US.88.WR27'
+	'1989.B.EC.89.EC003'
+	'1989.B.EC.89.EC102'
+	'1989.F1.BR.89.BZ126'
+	'1989.F1.BR.89.BZ163'
+	'1990.B.TH.90.BK132.AY173951'
+	'1990.B.US.90.US1'
+	'1990.B.US.90.US2'
+	'1990.B.US.90.US4'
+	'1990.H.CF.90.056'
+	'1990.U.CD.90.90CD121E12'
+	'1991.B.US.91.DH12'
+	'1991.C.KE.91.KNH1268'
+	'1992.A1.RW.92.92RW008'
+	'1992.A1.RW.92.92RW025A'
+	'1992.A1.UG.92.92UG037'
+	'1992.A1.UG.92.UG029'
+	'1992.C.BR.92.BR025'
+	'1993.A1.RW.93.93RW024'
+	'1993.A1.RW.93.93RW037A'
+	'1993.C.IN.93.93IN101'
+	'1993.D.KE.93.MB2059'
+	'1993.F1.BE.93.VI850'
+	'1993.F1.BR.93.93BR020'
+	'1993.H.BE.93.VI991'
+	'1993.H.BE.93.VI997'
+	'1993.J.SE.93.SE7887'
+	'1994.A1.KE.94.Q23'
+	'1994.A1.SE.94.SE7253'
+	'1994.A1.SE.94.SE7535'
+	'1994.A2.CY.94.94CY017'
+	'1994.C.IN.94.94IN11246'
+	'1994.J.SE.94.SE7022'
+	'1995.A1.SE.95.SE8538'
+	'1995.A1.SE.95.SE8891'
+	'1995.A1.SE.95.UGSE8131'
+	'1995.F2.CM.95.MP255'
+	'1995.F2.CM.95.MP257'
+	'1995.U.NL.95.H10986'
+	'1996.A.SN.96.DDJ360'
+	'1996.B.AU.96.MBCC98'
+	'1996.B.NL.96.H434'
+	'1996.B.TH.96.96THNP1538'
+	'1996.B.US.96.1299'
+	'1996.B.US.96.5155'
+	'1996.C.ZM.96.96ZM651'
+	'1996.C.ZM.96.96ZM751'
+	'1996.F1.FR.96.MP411'
+	'1996.K.CM.96.MP535'
+	'1997.A.CD.97.KCC2'
+	'1997.A.CD.97.KTB13'
+	'1997.A1.KE.97.ML605'
+	'1997.A1.KE.97.ML752'
+	'1997.A1.TZ.97.97TZ02'
+	'1997.A1.TZ.97.97TZ03'
+	'1997.A2.CD.97.97CDKTB48'
+	'1997.B.KR.97.WK'
+	'1997.B.US.97.1001'
+	'1997.B.US.97.1013'
+	'1997.C.TZ.97.97TZ05'
+	'1997.D.KE.97.ML415'
+	'1997.F2.CM.97.CM53657'
+	'1997.K.CD.97.EQTB11C'
+	'1998.A1.UG.98.98UG57134'
+	'1998.A1.UG.98.98UG57135'
+	'1998.A1.UG.98.98UG57136'
+	'1998.A1.UG.98.98UG57142'
+	'1998.B.US.98.98USHVTN1925'
+	'1998.B.US.98.98USHVTN3605'
+	'1998.B.US.98.98USHVTN8229'
+	'1998.C.BR.98.98BR004'
+	'1998.C.BW.98.98BWMO1410'
+	'1998.C.CN.98.YNRL9840'
+	'1998.C.TZ.98.98TZ017'
+	'1998.C.ZA.98.98ZA445'
+	'1998.C.ZA.98.98ZA528'
+	'1998.D.UG.98.98UG57128'
+	'1998.D.UG.98.98UG57131'
+	'1999.A1.KE.99.KNH1088'
+	'1999.A1.KE.99.KNH1135'
+	'1999.A1.UG.99.99UGA07072'
+	'1999.A1.UG.99.99UGG03379'
+	'1999.B.BR.99.BREPM11931'
+	'1999.B.MM.99.mSTD101'
+	'1999.C.BW.99.99BWMC168'
+	'1999.C.IL.99.99ET14'
+	'1999.C.ZA.99.DU422'
+	'1999.D.TD.99.MN011'
+	'1999.D.UG.99.99UGB21875'
+	'2000.A1.KE.00.KER2008'
+	'2000.A1.KE.00.MSA4079'
+	'2000.A1.KE.00.NKU3005'
+	'2000.B.NL.00.671'
+	'2000.C.BW.00.00BW07621'
+	'2000.C.BW.00.00BW16162'
+	'2000.C.KE.00.KER2010'
+	'2000.C.ZA.00.1119MB'
+	'2001.A.SN.01.DDI579'
+	'2001.A.SN.01.DDJ369'
+	'2001.A1.TZ.01.A173'
+	'2001.A1.TZ.01.A195'
+	'2001.A1.TZ.01.A341'
+	'2001.B.CO.01.PCM013'
+	'2001.B.CO.01.PCM074'
+	'2001.B.UY.01.01UYTRA1092'
+	'2001.C.AR.01.ARG4006'
+	'2001.C.TZ.01.A125'
+	'2001.C.TZ.01.A301'
+	'2001.C.ZA.01.2134MB'
+	'2001.D.CM.01.01CM0009BBY'
+	'2001.D.CM.01.01CM0175BA'
+	'2001.D.KE.01.NKU3006'
+	'2001.D.TZ.01.A280'
+	'2001.F1.BR.01.01BR087'
+	'2001B.UA.01.01UAKV252'
+	'2002.A.CD.02.KTB035'
+	'2002.B.AR.02.02AR114146'
+	'2002.B.YE.02.02YE507'
+	'2002.C.TZ.02.CO3056'
+	'2002.C.ZA.02.02ZAPS008MB1'
+	'2002.C.ZM.02.02ZM114'
+	'2002.F1.AR.02.ARE933'
+	'2002.F2.CM.02.02CM0016BBY'
+	'2003.C.GE.03.03GEMZ033'
+	'2004.A.ZA.04.SK162B1'
+	'2004.B.AR.04.04AR151263'
+	'2004.B.JP.04.DR6089'
+	'2004.B.KR.04.04KMH5'
+	'2004.B.KR.04.04LHS6'
+	'2004.B.RU.04.04RU139089'
+	'2004.C.BR.04.04BR013'
+	'2004.C.ZA.04.04ZAPS161B1'
+	'2004.D.KR.04.04KBH8'
+	'2005.B.JP.05.DR7060'
+	'2005.B.KR.05.05CSR3'
+	'2005.C.ZA.05.05ZASK243B1'
+	'2005.C.ZA.05.05ZASK246B1'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('1998.C.TZ.98.98TZ017'[&!color=#ff8000]:0.07607,(('1999.C.IL.99.99ET14'[&!color=#ff8000]:0.080171,('1991.C.KE.91.KNH1268'[&!color=#ff8000]:0.111719,('2004.C.BR.04.04BR013'[&!color=#ff8000]:0.045743,(('1998.C.BR.98.98BR004'[&!color=#ff8000]:0.042564,'1992.C.BR.92.BR025'[&!color=#ff8000]:0.031241)[&aLRT=0.92,!color=#ff8000]:0.008303,'2001.C.AR.01.ARG4006'[&!color=#ff8000]:0.043465)[&aLRT=0.4,!color=#ff8000]:0.002378)[&aLRT=0.91,!color=#ff8000]:0.013035)[&aLRT=0.78,!color=#ff8000]:0.00892)[&aLRT=0.82,!color=#ff8000]:0.006156,('1999.C.BW.99.99BWMC168'[&!color=#ff8000]:0.091121,((('1998.C.BW.98.98BWMO1410'[&!color=#ff8000]:0.064229,((('1998.C.CN.98.YNRL9840'[&!color=#ff8000]:0.039746,('1993.C.IN.93.93IN101'[&!color=#ff8000]:0.031018,'1994.C.IN.94.94IN11246'[&!color=#ff8000]:0.047282)[&aLRT=0.83,!color=#ff8000]:0.0105)[&aLRT=0.99,!color=#ff8000]:0.02123,('2002.C.ZA.02.02ZAPS008MB1'[&!color=#ff8000]:0.070997,'1997.C.TZ.97.97TZ05'[&!color=#ff8000]:0.064247)[&aLRT=0.86,!color=#ff8000]:0.010113)[&aLRT=0.31,!color=#ff8000]:0.002976,((('2000.C.KE.00.KER2010'[&!color=#ff8000]:0.061265,(('2004.C.ZA.04.04ZAPS161B1'[&!color=#ff8000]:0.069655,'2000.C.ZA.00.1119MB'[&!color=#ff8000]:0.085303)[&aLRT=0.62,!color=#ff8000]:0.0098,('2005.C.ZA.05.05ZASK246B1'[&!color=#ff8000]:0.063478,('2001.C.ZA.01.2134MB'[&!color=#ff8000]:0.064688,'1999.C.ZA.99.DU422'[&!color=#ff8000]:0.059633)[&aLRT=0.78,!color=#ff8000]:0.009029)[&aLRT=0.75,!color=#ff8000]:0.004482)[&aLRT=0.74,!color=#ff8000]:0.007286)[&aLRT=0.37,!color=#ff8000]:0.00389,('2002.C.TZ.02.CO3056'[&!color=#ff8000]:0.055468,'2005.C.ZA.05.05ZASK243B1'[&!color=#ff8000]:0.075361)[&aLRT=0.89,!color=#ff8000]:0.011755)[&aLRT=0.9,!color=#ff8000]:0.008976,('2003.C.GE.03.03GEMZ033'[&!color=#ff8000]:0.069136,('1996.C.ZM.96.96ZM651'[&!color=#ff8000]:0.046308,'1998.C.ZA.98.98ZA528'[&!color=#ff8000]:0.080666)[&aLRT=0.13,!color=#ff8000]:0.007315)[&aLRT=0.62,!color=#ff8000]:0.002089)[&aLRT=0.91,!color=#ff8000]:0.008777)[&aLRT=0.52,!color=#ff8000]:0.004528)[&aLRT=0.85,!color=#ff8000]:0.004833,'2002.C.ZM.02.02ZM114'[&!color=#ff8000]:0.101102)[&aLRT=0.14,!color=#ff8000]:0.002348,((('2000.C.BW.00.00BW07621'[&!color=#ff8000]:0.055935,'2000.C.BW.00.00BW16162'[&!color=#ff8000]:0.106895)[&aLRT=0.72,!color=#ff8000]:0.011928,'1996.C.ZM.96.96ZM751'[&!color=#ff8000]:0.06266)[&aLRT=0.87,!color=#ff8000]:0.009353,('2001.C.TZ.01.A301'[&!color=#ff8000]:0.059113,('2001.C.TZ.01.A125'[&!color=#ff8000]:0.08166,'1998.C.ZA.98.98ZA445'[&!color=#ff8000]:0.090187)[&aLRT=0.16,!color=#ff8000]:0.006959)[&aLRT=0.87,!color=#ff8000]:0.006737)[&aLRT=0.83,!color=#ff8000]:0.004449)[&aLRT=0.78,!color=#ff8000]:0.00561)[&aLRT=0.42,!color=#ff8000]:0.005939)[&aLRT=0.71,!color=#ff8000]:0.01414)[&aLRT=1.0,!color=#ff8000]:0.093182,(('1990.U.CD.90.90CD121E12'[&!color=#996633]:0.05248,'1983.U.CD.83.83CD003'[&!color=#996633]:0.060458)[&aLRT=1.0,!color=#996633]:0.118778,((('1994.A2.CY.94.94CY017'[&!color=#00ffff]:0.065685,'1997.A2.CD.97.97CDKTB48'[&!color=#00ffff]:0.074762)[&aLRT=1.0,!color=#00ffff]:0.05766,((('2002.A.CD.02.KTB035'[&!rotate=true,!color=#800080]:0.096449,('1997.A.CD.97.KCC2'[&!rotate=true,!color=#800080]:0.100839,'1997.A.CD.97.KTB13'[&!rotate=true,!color=#800080]:0.100108)[&aLRT=0.22,!rotate=true,!color=#800080]:0.012714)[&aLRT=0.96,!rotate=true,!color=#800080]:0.038485,('1960.DRC60N'[&!color=#ff0000,!rotate=false]:0.013984,'1960.DRC60A'[&!color=#ff0000,!rotate=false]:0.016761)[&aLRT=0.97,!color=#ff0000,!rotate=false]:0.05999)[&aLRT=0.77,!rotate=true]:0.010411,(('1993.A1.RW.93.93RW037A'[&!color=#800080]:0.055297,(((('1992.A1.RW.92.92RW025A'[&!color=#800080]:0.088067,(((('1994.A1.SE.94.SE7535'[&!color=#800080]:0.045552,'2001.A1.TZ.01.A341'[&!color=#800080]:0.080498)[&aLRT=0.82,!color=#800080]:0.009131,'1992.A1.RW.92.92RW008'[&!color=#800080]:0.063425)[&aLRT=0.77,!color=#800080]:0.002995,('1994.A1.KE.94.Q23'[&!color=#800080]:0.043633,'1997.A1.TZ.97.97TZ02'[&!color=#800080]:0.075309)[&aLRT=0.87,!color=#800080]:0.010029)[&aLRT=0.88,!color=#800080]:0.003883,'1993.A1.RW.93.93RW024'[&!color=#800080]:0.083567)[&aLRT=0.75,!color=#800080]:0.001658)[&aLRT=0.83,!color=#800080]:0.00525,('2000.A1.KE.00.KER2008'[&!color=#800080]:0.112702,'1998.A1.UG.98.98UG57142'[&!color=#800080]:0.07949)[&aLRT=0.83,!color=#800080]:0.011361)[&aLRT=0.66,!color=#800080]:0.002001,('1986.A1.KE.86.ML170'[&!color=#800080]:0.03662,(('2000.A1.KE.00.MSA4079'[&!color=#800080]:0.082275,'2001.A1.TZ.01.A195'[&!color=#800080]:0.104597)[&aLRT=0.28,!color=#800080]:0.011987,(('1999.A1.KE.99.KNH1135'[&!color=#800080]:0.107225,('1997.A1.KE.97.ML605'[&!color=#800080]:0.045472,'1997.A1.TZ.97.97TZ03'[&!color=#800080]:0.065596)[&aLRT=0.88,!color=#800080]:0.01155)[&aLRT=0.42,!color=#800080]:0.002686,('1995.A1.SE.95.SE8538'[&!color=#800080]:0.070251,(('1997.A1.KE.97.ML752'[&!color=#800080]:0.046187,(('1998.A1.UG.98.98UG57136'[&!color=#800080]:0.062368,'1999.A1.UG.99.99UGA07072'[&!color=#800080]:0.040881)[&aLRT=0.93,!color=#800080]:0.014348,('1998.A1.UG.98.98UG57135'[&!color=#800080]:0.084768,'1995.A1.SE.95.SE8891'[&!color=#800080]:0.066391)[&aLRT=0.69,!color=#800080]:0.004126)[&aLRT=0.88,!color=#800080]:0.009518)[&aLRT=0.26,!color=#800080]:0.006681,'2001.A1.TZ.01.A173'[&!color=#800080]:0.063066)[&aLRT=0.39,!color=#800080]:0.002921)[&aLRT=0.83,!color=#800080]:0.003713)[&aLRT=0.8,!color=#800080]:0.005127)[&aLRT=0.78,!color=#800080]:0.005317)[&aLRT=0.8,!color=#800080]:0.005889)[&aLRT=0.92,!color=#800080]:0.009881,('1994.A1.SE.94.SE7253'[&!color=#800080]:0.068012,(('1992.A1.UG.92.UG029'[&!color=#800080]:0.088925,('2000.A1.KE.00.NKU3005'[&!color=#800080]:0.053678,('1992.A1.UG.92.92UG037'[&!color=#800080]:0.049631,'1999.A1.UG.99.99UGG03379'[&!color=#800080]:0.080678)[&aLRT=0.94,!color=#800080]:0.026307)[&aLRT=0.15,!color=#800080]:0.005773)[&aLRT=0.22,!color=#800080]:0.004696,('1995.A1.SE.95.UGSE8131'[&!color=#800080]:0.074583,('1999.A1.KE.99.KNH1088'[&!color=#800080]:0.039724,'1998.A1.UG.98.98UG57134'[&!color=#800080]:0.084956)[&aLRT=0.95,!color=#800080]:0.020066)[&aLRT=0.83,!color=#800080]:0.008852)[&aLRT=0.51,!color=#800080]:0.008511)[&aLRT=0.87,!color=#800080]:0.008441)[&aLRT=0.94,!color=#800080]:0.012622)[&aLRT=0.91,!color=#800080]:0.016394,('2004.A.ZA.04.SK162B1'[&!color=#800080]:0.124333,('2001.A.SN.01.DDJ369'[&!color=#800080]:0.067666,('1996.A.SN.96.DDJ360'[&!color=#800080]:0.02587,'2001.A.SN.01.DDI579'[&!color=#800080]:0.033649)[&aLRT=1.0,!color=#800080]:0.03741)[&aLRT=0.99,!color=#800080]:0.042732)[&aLRT=0.24,!color=#800080]:0.011522)[&aLRT=0.97,!color=#800080]:0.026156)[&aLRT=0.97]:0.024185)[&aLRT=1.0]:0.051918,(('1993.H.BE.93.VI991'[&!color=#339900]:0.065348,('1990.H.CF.90.056'[&!color=#339900]:0.069694,'1993.H.BE.93.VI997'[&!color=#339900]:0.078871)[&aLRT=0.99,!color=#339900]:0.039182)[&aLRT=1.0,!color=#339900]:0.046595,('1995.U.NL.95.H10986'[&!color=#996633]:0.094712,('1994.J.SE.94.SE7022'[&!color=#003300]:0.026322,'1993.J.SE.93.SE7887'[&!color=#003300]:0.024844)[&aLRT=1.0,!color=#003300]:0.135489)[&aLRT=0.98]:0.044943)[&aLRT=0.87]:0.015999)[&aLRT=0.67]:0.003548)[&aLRT=0.67]:0.010773,((('1996.K.CM.96.MP535':0.063404,'1997.K.CD.97.EQTB11C':0.083569)[&aLRT=1.0]:0.056589,((('1997.F2.CM.97.CM53657'[&!color=#ff00ff]:0.059633,'2002.F2.CM.02.02CM0016BBY'[&!color=#ff00ff]:0.054123)[&aLRT=0.93,!color=#ff00ff]:0.017768,('1995.F2.CM.95.MP255'[&!color=#ff00ff]:0.111178,'1995.F2.CM.95.MP257'[&!color=#ff00ff]:0.068205)[&aLRT=0.05,!color=#ff00ff]:0.007997)[&aLRT=1.0,!color=#ff00ff]:0.049363,('1996.F1.FR.96.MP411'[&!color=#00ff00]:0.100044,('1993.F1.BE.93.VI850'[&!color=#00ff00]:0.071706,(('1993.F1.BR.93.93BR020'[&!color=#00ff00]:0.050214,'2001.F1.BR.01.01BR087'[&!color=#00ff00]:0.062896)[&aLRT=0.73,!color=#00ff00]:0.011432,('2002.F1.AR.02.ARE933'[&!color=#00ff00]:0.071854,('1989.F1.BR.89.BZ163'[&!color=#00ff00]:0.027616,'1989.F1.BR.89.BZ126'[&!color=#00ff00]:0.02767)[&aLRT=0.99,!color=#00ff00]:0.025084)[&aLRT=0.43,!color=#00ff00]:0.005943)[&aLRT=0.94,!color=#00ff00]:0.015864)[&aLRT=0.86,!color=#00ff00]:0.011793)[&aLRT=1.0,!color=#00ff00]:0.043218)[&aLRT=0.96]:0.022016)[&aLRT=0.9]:0.011798,(('1959.M.CD.59.ZR59'[&!color=#000000]:0.032728,((('1999.D.TD.99.MN011'[&!color=#0000ff]:0.05835,('2001.D.CM.01.01CM0175BA'[&!color=#0000ff]:0.028782,'2001.D.CM.01.01CM0009BBY'[&!color=#0000ff]:0.091386)[&aLRT=1.0,!color=#0000ff]:0.040997)[&aLRT=0.91,!color=#0000ff]:0.018334,(('1993.D.KE.93.MB2059'[&!color=#0000ff]:0.074143,('1998.D.UG.98.98UG57131'[&!color=#0000ff]:0.096067,('1997.D.KE.97.ML415'[&!color=#0000ff]:0.082218,('1999.D.UG.99.99UGB21875'[&!color=#0000ff]:0.075726,('2001.D.KE.01.NKU3006'[&!color=#0000ff]:0.062415,'1998.D.UG.98.98UG57128'[&!color=#0000ff]:0.074808)[&aLRT=0.28,!color=#0000ff]:0.011712)[&aLRT=0.88,!color=#0000ff]:0.01033)[&aLRT=0.1,!color=#0000ff]:0.003104)[&aLRT=0.8,!color=#0000ff]:0.007098)[&aLRT=0.99,!color=#0000ff]:0.034761,('2004.D.KR.04.04KBH8'[&!color=#0000ff]:0.130752,'2001.D.TZ.01.A280'[&!color=#0000ff]:0.084675)[&aLRT=0.69,!color=#0000ff]:0.014108)[&aLRT=0.94,!color=#0000ff]:0.020282)[&aLRT=0.78,!color=#0000ff]:0.004763,('1985.D.CD.85.Z2Z6'[&!color=#0000ff]:0.080471,'1984.D.CD.84.84ZR085'[&!color=#0000ff]:0.072601)[&aLRT=0.92,!color=#0000ff]:0.016017)[&aLRT=0.99,!color=#0000ff]:0.052455)[&aLRT=0.9]:0.019985,(((('1983.B.US.83.5018'[&!color=#fff159]:0.040487,('1997.B.KR.97.WK'[&!color=#fff159]:0.060734,('2004.B.KR.04.04KMH5'[&!color=#fff159]:0.045669,'2004.B.KR.04.04LHS6'[&!color=#fff159]:0.060203)[&aLRT=0.89,!color=#fff159]:0.009581)[&aLRT=1.0,!color=#fff159]:0.02617)[&aLRT=0.82,!color=#fff159]:0.004608,((('2004.B.RU.04.04RU139089'[&!color=#fff159]:0.091887,'1983.B.GB.83.CAM1'[&!color=#fff159]:0.057786)[&aLRT=0.67,!color=#fff159]:0.013107,'2000.B.NL.00.671'[&!color=#fff159]:0.072332)[&aLRT=0.66,!color=#fff159]:0.002213,((('2001B.UA.01.01UAKV252'[&!color=#fff159]:0.117653,'1989.B.EC.89.EC102'[&!color=#fff159]:0.114065)[&aLRT=0.72,!color=#fff159]:0.012195,('1999.B.BR.99.BREPM11931'[&!color=#fff159]:0.073503,'2004.B.JP.04.DR6089'[&!color=#fff159]:0.067359)[&aLRT=0.91,!color=#fff159]:0.022657)[&aLRT=0.63,!color=#fff159]:0.004795,('2002.B.AR.02.02AR114146'[&!color=#fff159]:0.129262,('2005.B.JP.05.DR7060'[&!color=#fff159]:0.081097,'1996.B.NL.96.H434'[&!color=#fff159]:0.070966)[&aLRT=0.54,!color=#fff159]:0.016944)[&aLRT=0.57,!color=#fff159]:0.001482)[&aLRT=0.76,!color=#fff159]:0.005477)[&aLRT=0.93,!color=#fff159]:0.008846)[&aLRT=0.91,!color=#fff159]:0.006226,(((('1986.B.DE.86.HAN'[&!color=#fff159]:0.074776,('1988.B.GA.88.OYI'[&!color=#fff159]:0.071134,'1986.B.DE.86.D31'[&!color=#fff159]:0.054906)[&aLRT=0.56,!color=#fff159]:9.31E-4)[&aLRT=0.88,!color=#fff159]:0.004436,('1998.B.US.98.98USHVTN8229'[&!color=#fff159]:0.120474,('1983.B.US.83.5157'[&!color=#fff159]:0.030839,'1989.B.EC.89.EC003'[&!color=#fff159]:0.089415)[&aLRT=0.63,!color=#fff159]:0.00231)[&aLRT=0.22,!color=#fff159]:0.005759)[&aLRT=0.72,!color=#fff159]:0.002508,('1986.B.US.86.AD87'[&!color=#fff159]:0.041547,('1986.B.GB.86.GB8'[&!color=#fff159]:0.052451,('1996.B.TH.96.96THNP1538'[&!color=#fff159]:0.029934,'1999.B.MM.99.mSTD101'[&!color=#fff159]:0.059224)[&aLRT=0.99,!color=#fff159]:0.031351)[&aLRT=0.87,!color=#fff159]:0.01609)[&aLRT=0.87,!color=#fff159]:0.008398)[&aLRT=0.42,!color=#fff159]:0.003331,('1986.B.NL.86.3202A21'[&!color=#fff159]:0.046541,((('1990.B.US.90.US2'[&!color=#fff159]:0.056318,((('1996.B.AU.96.MBCC98'[&!color=#fff159]:0.07203,'2005.B.KR.05.05CSR3'[&!color=#fff159]:0.119718)[&aLRT=0.67,!color=#fff159]:0.0048,('1996.B.US.96.5155'[&!color=#fff159]:0.140799,'2004.B.AR.04.04AR151263'[&!color=#fff159]:0.088123)[&aLRT=0.93,!color=#fff159]:0.019689)[&aLRT=0.81,!color=#fff159]:0.006033,(('1987.B.US.87.BC'[&!color=#fff159]:0.068057,'1990.B.TH.90.BK132.AY173951'[&!color=#fff159]:0.048009)[&aLRT=0.61,!color=#fff159]:0.012055,('1986.B.AU.86.MBC200'[&!color=#fff159]:0.063698,('1990.B.US.90.US1'[&!color=#fff159]:0.071949,'2002.B.YE.02.02YE507'[&!color=#fff159]:0.09113)[&aLRT=0.83,!color=#fff159]:0.010171)[&aLRT=0.74,!color=#fff159]:0.005661)[&aLRT=0.64,!color=#fff159]:0.001845)[&aLRT=0.51,!color=#fff159]:0.002593)[&aLRT=0.75,!color=#fff159]:0.002118,(('1996.B.US.96.1299'[&!color=#fff159]:0.081302,'1987.B.AU.87.MBC925'[&!color=#fff159]:0.051216)[&aLRT=0.17,!color=#fff159]:0.011341,('1997.B.US.97.1001'[&!color=#fff159]:0.084084,('1984.B.US.84.5019'[&!color=#fff159]:0.040324,('1998.B.US.98.98USHVTN1925'[&!color=#fff159]:0.086361,('2001.B.CO.01.PCM074'[&!color=#fff159]:0.135452,'2001.B.CO.01.PCM013'[&!color=#fff159]:0.087042)[&aLRT=0.81,!color=#fff159]:0.014626)[&aLRT=0.94,!color=#fff159]:0.024445)[&aLRT=0.52,!color=#fff159]:0.007173)[&aLRT=0.63,!color=#fff159]:0.001885)[&aLRT=0.83,!color=#fff159]:0.006035)[&aLRT=0.76,!color=#fff159]:0.002908,(('1997.B.US.97.1013'[&!color=#fff159]:0.083422,(('1988.B.US.88.WR27'[&!color=#fff159]:0.104261,'1998.B.US.98.98USHVTN3605'[&!color=#fff159]:0.092074)[&aLRT=0.8,!color=#fff159]:0.016073,'2001.B.UY.01.01UYTRA1092'[&!color=#fff159]:0.088532)[&aLRT=0.51,!color=#fff159]:0.004238)[&aLRT=0.81,!color=#fff159]:0.012135,('1987.B.US.87.5113'[&!color=#fff159]:0.059801,'1991.B.US.91.DH12'[&!color=#fff159]:0.066404)[&aLRT=0.63,!color=#fff159]:0.010136)[&aLRT=0.87,!color=#fff159]:0.006161)[&aLRT=0.41,!color=#fff159]:0.004641)[&aLRT=0.77,!color=#fff159]:0.006311)[&aLRT=0.49,!color=#fff159]:0.001213)[&aLRT=0.9,!color=#fff159]:0.010065,('1983.B.US.83.RF'[&!color=#fff159]:0.069493,'1990.B.US.90.US4'[&!color=#fff159]:0.104831)[&aLRT=0.86,!color=#fff159]:0.01616)[&aLRT=0.99,!color=#fff159]:0.031445)[&aLRT=0.98]:0.031094)[&aLRT=0.82]:0.017483);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="aLRT";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
