@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH --clusters=genius
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --time=02:00:00
+#SBATCH --account=lp_edu_evol_quant_genetics 
+
+cd $SLURM_SUBMIT_DIR
+module purge
+module use /apps/leuven/skylake/2021a/modules/all
+module load beagle-lib
+module load Beast/1.10.4-intel-2018a
+
+beast Worobey.1960.A.A1.cc3.xml
