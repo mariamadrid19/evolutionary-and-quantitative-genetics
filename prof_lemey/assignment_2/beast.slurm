@@ -11,4 +11,4 @@ module use /apps/leuven/skylake/2021a/modules/all
 module load beagle-lib
 module load Beast/1.10.4-intel-2018a
 
-beast YFV.xml
+beast Worobey.1960.cc3.xml
