@@ -1,2 +1,0 @@
-library(adegenet)
-library(vcfR)
